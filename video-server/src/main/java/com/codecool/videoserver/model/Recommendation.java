@@ -14,5 +14,5 @@ public class Recommendation {
     private Long id;
     private String comment;
     private int rating;
-    private long videoId;
+    private Long videoId;
 }

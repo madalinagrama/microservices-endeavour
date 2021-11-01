@@ -16,7 +16,7 @@ public class RecommendationController {
     private final RecommendationService recommendationService;
 
     @GetMapping("/{videoId}")
-    public List<Recommendation> getRecommendationsForVideo(@PathVariable long videoId){
+    public List<Recommendation> getRecommendationsForVideo(@PathVariable Long videoId){
         return recommendationService.getAllRecommendationForVideo(videoId);
     }
 

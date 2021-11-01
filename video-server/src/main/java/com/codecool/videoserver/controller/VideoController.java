@@ -33,12 +33,12 @@ public class VideoController {
     }
 
     @PutMapping("/{id}/recommendation")
-    public Recommendation updateRecommendation(@PathVariable long id, @RequestBody Recommendation toUpdate) {
+    public Recommendation updateRecommendation(@PathVariable Long id, @RequestBody Recommendation toUpdate) {
         return videoService.updateRecommendation(toUpdate);
     }
 
     @DeleteMapping("/{id}/recommendation/{recId}")
-    public String deleteRecommendation(@PathVariable long id, @PathVariable long recId) {
+    public String deleteRecommendation(@PathVariable Long id, @PathVariable Long recId) {
         videoService.deleteRecommendation(recId);
         return "Success";
     }

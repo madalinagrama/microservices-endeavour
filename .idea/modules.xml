@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" filepath="$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservices-endeavour.iml" filepath="$PROJECT_DIR$/.idea/microservices-endeavour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recommendation-service/recommendation-service.iml" filepath="$PROJECT_DIR$/recommendation-service/recommendation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-registry/service-registry.iml" filepath="$PROJECT_DIR$/service-registry/service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/video-server/video-server.iml" filepath="$PROJECT_DIR$/video-server/video-server.iml" />
+    </modules>
+  </component>
+</project>
